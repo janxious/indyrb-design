@@ -1,0 +1,18 @@
+/* Main Nav */
+header nav {
+    font-size: 110;
+	  height: 40px;
+	  line-height: 32px;
+	  padding: 0;
+	  text-align: center;
+}
+
+header nav ul {list-style: none; margin: 0 auto;}
+header nav li {float: left; display: inline; margin: 0;}
+
+header nav a:link, header nav a:visited {
+	  display: inline-block;
+	  height: 30px;
+	  padding: 5px 16px;
+	  text-decoration: none;
+}

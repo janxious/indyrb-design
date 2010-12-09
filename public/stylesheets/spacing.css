@@ -1,0 +1,38 @@
+header h1, footer, #content {
+    padding: 0 16px;
+}
+
+header h1 {
+	  padding-top: 0.7em;
+    padding-bottom: 0.5em;
+}
+
+#content, footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#featured p {
+    width: 500px;
+}
+
+/* stupid hack because I didn't feel like editing an image */
+#featured img {
+    float: right;
+    padding: 15px 10px 10px;
+    margin: 0 20px 20px;
+    background-color: white;
+    -moz-border-radius: 5px
+}
+
+#content ul {
+    padding-left: 16px;
+}
+
+#content ul li a {
+    color: white;
+}
+
+#content ul li a:hover {
+    color: rgb(235,235,225);
+}

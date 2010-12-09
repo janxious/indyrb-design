@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(31, 88, 135);
+}
+header {
+    margin-top: 1em;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+}
+
+footer {
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px
+}
+
+header, footer, #content {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+header nav { 
+    background-color: rgba(255,255,255,0.5)
+}
+
+header nav a:link, header nav a:visited {
+	  color: white;
+}
+
+header nav a:hover, header nav a:active,
+header nav .active a:link, header nav .active a:visited {
+	  background-color: rgba(255,255,255,0.95);
+	  color: #224;
+	  text-shadow: none !important;
+}
+
+header h1, footer {
+    background-color: rgba(255, 255, 255, 0.2);
+}
